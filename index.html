@@ -3,23 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro de Aluno</title>
 </head>
 <body>
-   <divclass = "container">
-    <h1> Cadrasto de aluno </h1>
-    <from id = "CadrastoFrom">
-        <input type = "text" id="nomeAluno" placeholder="Nome do aluno" required>
-        <input type = "text" id="nomeIdade" placeholder="Idade do aluno" required>
-        <button type=  "submit" id = "btnSalvar">Cadastrar</button>
-    </from>
-<hr>
+    <div class="container">
+        <h1>Cadastro de Aluno</h1>
+        <form id="CadastroForm">
+            <input type="text" id="nomeAluno" placeholder="Nome do aluno" required>
+            <input type="text" id="idadeAluno" placeholder="Idade do aluno" required>
+            <button type="submit" id="btnSalvar">Cadastrar</button>
+        </form>
+        <hr>
+        <h2>Lista de Inscritos</h2>
+        <ul id="listaAluno"></ul>
+    </div> 
 
-<h2> Lista de Inscritos</h2>
-<ul id=""listaAluno>
-</ul>
-</div> 
-
-<script src = "script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
